@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "xenovations",
-	"version": "0.0.0",
+	"version": "${version}",
 	"name": "Xenovations",
 	"description": "This mod adds things that should be in vanilla Minecraft",
 	"authors": [
