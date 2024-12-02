@@ -1,5 +1,7 @@
 package com.xenon863.xenovations;
 
+import com.xenon863.xenovations.block.ModBlocks;
+import com.xenon863.xenovations.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,7 @@ public class Xenovations implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
