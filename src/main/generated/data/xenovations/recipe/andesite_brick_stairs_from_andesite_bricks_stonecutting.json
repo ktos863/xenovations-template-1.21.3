@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "xenovations:andesite_bricks",
+  "result": {
+    "count": 1,
+    "id": "xenovations:andesite_brick_stairs"
+  }
+}

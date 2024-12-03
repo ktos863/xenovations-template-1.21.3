@@ -30,11 +30,11 @@ public class ModBlocks {
     }
 
     private static Block registerBlock(String name, Block block) {
+        registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Xenovations.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        registerBlock(name, block);
         Registry.register(Registries.ITEM, Identifier.of(Xenovations.MOD_ID, name), new BlockItem(block, new Item.Settings()
                 .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Xenovations.MOD_ID, name)))));
     }
