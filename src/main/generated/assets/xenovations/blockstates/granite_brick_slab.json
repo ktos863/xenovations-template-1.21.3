@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xenovations:block/granite_brick_slab"
+    },
+    "type=double": {
+      "model": "xenovations:block/granite_bricks"
+    },
+    "type=top": {
+      "model": "xenovations:block/granite_brick_slab_top"
+    }
+  }
+}

@@ -21,15 +21,31 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ANDESITE_BRICKS)
                 .add(ModBlocks.ANDESITE_BRICK_STAIRS)
                 .add(ModBlocks.ANDESITE_BRICK_SLAB)
-                .add(ModBlocks.ANDESITE_BRICK_WALL);
+                .add(ModBlocks.ANDESITE_BRICK_WALL)
+
+                .add(ModBlocks.DIORITE_BRICKS)
+                .add(ModBlocks.DIORITE_BRICK_STAIRS)
+                .add(ModBlocks.DIORITE_BRICK_SLAB)
+                .add(ModBlocks.DIORITE_BRICK_WALL)
+
+                .add(ModBlocks.GRANITE_BRICKS)
+                .add(ModBlocks.GRANITE_BRICK_STAIRS)
+                .add(ModBlocks.GRANITE_BRICK_SLAB)
+                .add(ModBlocks.GRANITE_BRICK_WALL);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
-                .add(ModBlocks.ANDESITE_BRICK_STAIRS);
+                .add(ModBlocks.ANDESITE_BRICK_STAIRS)
+                .add(ModBlocks.DIORITE_BRICK_STAIRS)
+                .add(ModBlocks.GRANITE_BRICK_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.SLABS)
-                .add(ModBlocks.ANDESITE_BRICK_SLAB);
+                .add(ModBlocks.ANDESITE_BRICK_SLAB)
+                .add(ModBlocks.DIORITE_BRICK_SLAB)
+                .add(ModBlocks.GRANITE_BRICK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.ANDESITE_BRICK_WALL);
+                .add(ModBlocks.ANDESITE_BRICK_WALL)
+                .add(ModBlocks.DIORITE_BRICK_WALL)
+                .add(ModBlocks.GRANITE_BRICK_WALL);
     }
 }

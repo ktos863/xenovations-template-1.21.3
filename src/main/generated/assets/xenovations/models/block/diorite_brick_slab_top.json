@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "xenovations:block/diorite_bricks",
+    "side": "xenovations:block/diorite_bricks",
+    "top": "xenovations:block/diorite_bricks"
+  }
+}

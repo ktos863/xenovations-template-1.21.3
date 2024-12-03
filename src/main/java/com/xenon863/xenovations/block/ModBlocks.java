@@ -25,6 +25,32 @@ public class ModBlocks {
             (AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Xenovations.MOD_ID, "andesite_brick_wall")))
                     .strength(1.5f, 6f).requiresTool()));
 
+    public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks", new Block
+            (AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Xenovations.MOD_ID, "diorite_bricks")))
+                    .strength(1.5f, 6f).requiresTool()));
+    public static final Block DIORITE_BRICK_STAIRS = registerBlock("diorite_brick_stairs", new StairsBlock
+            (ModBlocks.DIORITE_BRICKS.getDefaultState(), AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK,
+                    Identifier.of(Xenovations.MOD_ID, "diorite_brick_stairs"))).requiresTool()));
+    public static final Block DIORITE_BRICK_SLAB = registerBlock("diorite_brick_slab", new SlabBlock
+            (AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Xenovations.MOD_ID, "diorite_brick_slab")))
+                    .strength(1.5f, 6f).requiresTool()));
+    public static final Block DIORITE_BRICK_WALL = registerBlock("diorite_brick_wall", new WallBlock
+            (AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Xenovations.MOD_ID, "diorite_brick_wall")))
+                    .strength(1.5f, 6f).requiresTool()));
+
+    public static final Block GRANITE_BRICKS = registerBlock("granite_bricks", new Block
+            (AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Xenovations.MOD_ID, "granite_bricks")))
+                    .strength(1.5f, 6f).requiresTool()));
+    public static final Block GRANITE_BRICK_STAIRS = registerBlock("granite_brick_stairs", new StairsBlock
+            (ModBlocks.GRANITE_BRICKS.getDefaultState(), AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK,
+                    Identifier.of(Xenovations.MOD_ID, "granite_brick_stairs"))).requiresTool()));
+    public static final Block GRANITE_BRICK_SLAB = registerBlock("granite_brick_slab", new SlabBlock
+            (AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Xenovations.MOD_ID, "granite_brick_slab")))
+                    .strength(1.5f, 6f).requiresTool()));
+    public static final Block GRANITE_BRICK_WALL = registerBlock("granite_brick_wall", new WallBlock
+            (AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Xenovations.MOD_ID, "granite_brick_wall")))
+                    .strength(1.5f, 6f).requiresTool()));
+
     public static void registerModBlocks(){
         Xenovations.LOGGER.info("Registering blocks for " + Xenovations.MOD_ID);
     }

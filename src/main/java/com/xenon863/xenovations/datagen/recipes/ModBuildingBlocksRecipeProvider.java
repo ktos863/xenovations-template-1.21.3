@@ -46,6 +46,56 @@ public class ModBuildingBlocksRecipeProvider extends FabricRecipeProvider {
                         .input('A', ModBlocks.ANDESITE_BRICKS)
                         .criterion(hasItem(ModBlocks.ANDESITE_BRICKS), conditionsFromItem(ModBlocks.ANDESITE_BRICKS))
                         .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_BRICKS, 4)
+                        .pattern("DD")
+                        .pattern("DD")
+                        .input('D', Blocks.POLISHED_DIORITE)
+                        .criterion(hasItem(Blocks.POLISHED_DIORITE), conditionsFromItem(Blocks.POLISHED_DIORITE))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_BRICK_STAIRS, 6)
+                        .pattern("D  ")
+                        .pattern("DD ")
+                        .pattern("DDD")
+                        .input('D', ModBlocks.DIORITE_BRICKS)
+                        .criterion(hasItem(ModBlocks.DIORITE_BRICKS), conditionsFromItem(ModBlocks.DIORITE_BRICKS))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_BRICK_SLAB, 6)
+                        .pattern("DDD")
+                        .input('D', ModBlocks.DIORITE_BRICKS)
+                        .criterion(hasItem(ModBlocks.DIORITE_BRICKS), conditionsFromItem(ModBlocks.DIORITE_BRICKS))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_BRICK_WALL, 6)
+                        .pattern("DDD")
+                        .pattern("DDD")
+                        .input('D', ModBlocks.DIORITE_BRICKS)
+                        .criterion(hasItem(ModBlocks.DIORITE_BRICKS), conditionsFromItem(ModBlocks.DIORITE_BRICKS))
+                        .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICKS, 4)
+                        .pattern("GG")
+                        .pattern("GG")
+                        .input('G', Blocks.POLISHED_GRANITE)
+                        .criterion(hasItem(Blocks.POLISHED_GRANITE), conditionsFromItem(Blocks.POLISHED_GRANITE))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_STAIRS, 6)
+                        .pattern("G  ")
+                        .pattern("GG ")
+                        .pattern("GGG")
+                        .input('G', ModBlocks.GRANITE_BRICKS)
+                        .criterion(hasItem(ModBlocks.GRANITE_BRICKS), conditionsFromItem(ModBlocks.GRANITE_BRICKS))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_SLAB, 6)
+                        .pattern("GGG")
+                        .input('G', ModBlocks.GRANITE_BRICKS)
+                        .criterion(hasItem(ModBlocks.GRANITE_BRICKS), conditionsFromItem(ModBlocks.GRANITE_BRICKS))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL, 6)
+                        .pattern("GGG")
+                        .pattern("GGG")
+                        .input('G', ModBlocks.GRANITE_BRICKS)
+                        .criterion(hasItem(ModBlocks.GRANITE_BRICKS), conditionsFromItem(ModBlocks.GRANITE_BRICKS))
+                        .offerTo(recipeExporter);
             }
         };
     }

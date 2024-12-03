@@ -21,6 +21,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_BRICK_STAIRS);
                         entries.add(ModBlocks.ANDESITE_BRICK_SLAB);
                         entries.add(ModBlocks.ANDESITE_BRICK_WALL);
+                        entries.add(ModBlocks.DIORITE_BRICKS);
+                        entries.add(ModBlocks.DIORITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.DIORITE_BRICK_SLAB);
+                        entries.add(ModBlocks.DIORITE_BRICK_WALL);
+                        entries.add(ModBlocks.GRANITE_BRICKS);
+                        entries.add(ModBlocks.GRANITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.GRANITE_BRICK_SLAB);
+                        entries.add(ModBlocks.GRANITE_BRICK_WALL);
                     })).build());
 
     public static void registerItemGroups(){

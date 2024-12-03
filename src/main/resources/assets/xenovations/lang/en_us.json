@@ -1,8 +1,16 @@
 {
-  "block.xenovations.andesite_bricks": "Andesite Bricks",
-  "block.xenovations.andesite_brick_stairs": "Andesite Brick Stairs",
-  "block.xenovations.andesite_brick_slab": "Andesite Brick Slab",
-  "block.xenovations.andesite_brick_wall": "Andesite Brick Wall",
+  "item.xenovations.andesite_bricks": "Andesite Bricks",
+  "item.xenovations.andesite_brick_stairs": "Andesite Brick Stairs",
+  "item.xenovations.andesite_brick_slab": "Andesite Brick Slab",
+  "item.xenovations.andesite_brick_wall": "Andesite Brick Wall",
+  "item.xenovations.diorite_bricks": "Diorite Bricks",
+  "item.xenovations.diorite_brick_stairs": "Diorite Brick Stairs",
+  "item.xenovations.diorite_brick_slab": "Diorite Brick Slab",
+  "item.xenovations.diorite_brick_wall": "Diorite Brick Wall",
+  "item.xenovations.granite_bricks": "Granite Bricks",
+  "item.xenovations.granite_brick_stairs": "Granite Brick Stairs",
+  "item.xenovations.granite_brick_slab": "Granite Brick Slab",
+  "item.xenovations.granite_brick_wall": "Granite Brick Wall",
 
   "itemgroup.xenovations.xenovations_building_blocks": "Xenovations Building Blocks"
 }

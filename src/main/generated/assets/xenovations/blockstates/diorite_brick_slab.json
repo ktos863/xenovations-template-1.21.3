@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xenovations:block/diorite_brick_slab"
+    },
+    "type=double": {
+      "model": "xenovations:block/diorite_bricks"
+    },
+    "type=top": {
+      "model": "xenovations:block/diorite_brick_slab_top"
+    }
+  }
+}

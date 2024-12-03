@@ -1,5 +1,13 @@
-// 1.21.3	2024-12-03T15:12:09.944689	Xenovations/Block Loot Tables
+// 1.21.3	2024-12-03T16:14:00.7943019	Xenovations/Block Loot Tables
+931e46128988e405adefef06249dec320cbd6217 data\xenovations\loot_table\blocks\granite_brick_wall.json
+8244c9e2ed9af40d782c1118ac3046ec5be2a2cf data\xenovations\loot_table\blocks\diorite_brick_stairs.json
+96a5cb333006078d523167f7048b5ca60f3ed42e data\xenovations\loot_table\blocks\granite_brick_stairs.json
+54e6f8ec09c8c11acb1a08dd11e5705012a3fd91 data\xenovations\loot_table\blocks\andesite_brick_slab.json
 17a953108f53ecae2a3585c6d024c2fe5a565262 data\xenovations\loot_table\blocks\andesite_bricks.json
-14c620bfe6f8aa9ef244b94972ef67979692a853 data\xenovations\loot_table\blocks\andesite_brick_slab.json
 5081eb575ac5a5ed47322ff102fe03545c1e3fd8 data\xenovations\loot_table\blocks\andesite_brick_stairs.json
+675a6d0d1fb923a0a7dbcb3b7eef5d80e2ca1aa9 data\xenovations\loot_table\blocks\diorite_bricks.json
+4dd0888fd90705c25fef381fb86780e0e0dd6dc3 data\xenovations\loot_table\blocks\granite_bricks.json
+487bc62760e9ad6f91b4bb3fee05b012733143b2 data\xenovations\loot_table\blocks\diorite_brick_slab.json
 8e770c85bf1116fabca880e1771fc7b96ec1b5d8 data\xenovations\loot_table\blocks\andesite_brick_wall.json
+6d6935fde304e3cd3ea8ee97a368707c9f96a2f9 data\xenovations\loot_table\blocks\diorite_brick_wall.json
+958cc6e5b6b5b2b8ebfd93ac91eee2d441f12756 data\xenovations\loot_table\blocks\granite_brick_slab.json

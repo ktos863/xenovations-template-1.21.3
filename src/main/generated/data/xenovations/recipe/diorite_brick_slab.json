@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": "xenovations:diorite_bricks"
+  },
+  "pattern": [
+    "DDD"
+  ],
+  "result": {
+    "count": 6,
+    "id": "xenovations:diorite_brick_slab"
+  }
+}

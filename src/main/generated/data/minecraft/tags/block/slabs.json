@@ -1,5 +1,7 @@
 {
   "values": [
-    "xenovations:andesite_brick_slab"
+    "xenovations:andesite_brick_slab",
+    "xenovations:diorite_brick_slab",
+    "xenovations:granite_brick_slab"
   ]
 }

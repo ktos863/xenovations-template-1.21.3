@@ -3,6 +3,14 @@
     "xenovations:andesite_bricks",
     "xenovations:andesite_brick_stairs",
     "xenovations:andesite_brick_slab",
-    "xenovations:andesite_brick_wall"
+    "xenovations:andesite_brick_wall",
+    "xenovations:diorite_bricks",
+    "xenovations:diorite_brick_stairs",
+    "xenovations:diorite_brick_slab",
+    "xenovations:diorite_brick_wall",
+    "xenovations:granite_bricks",
+    "xenovations:granite_brick_stairs",
+    "xenovations:granite_brick_slab",
+    "xenovations:granite_brick_wall"
   ]
 }
