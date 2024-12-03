@@ -12,5 +12,23 @@
   "item.xenovations.granite_brick_slab": "Granite Brick Slab",
   "item.xenovations.granite_brick_wall": "Granite Brick Wall",
 
-  "itemgroup.xenovations.xenovations_building_blocks": "Xenovations Building Blocks"
+  "item.xenovations.white_terracotta_bricks": "White Terracotta Bricks",
+  "item.xenovations.light_gray_terracotta_bricks": "Light Gray Terracotta Bricks",
+  "item.xenovations.gray_terracotta_bricks": "Gray Terracotta Bricks",
+  "item.xenovations.black_terracotta_bricks": "Black Terracotta Bricks",
+  "item.xenovations.brown_terracotta_bricks": "Brown Terracotta Bricks",
+  "item.xenovations.red_terracotta_bricks": "Red Terracotta Bricks",
+  "item.xenovations.orange_terracotta_bricks": "Orange Terracotta Bricks",
+  "item.xenovations.yellow_terracotta_bricks": "Yellow Terracotta Bricks",
+  "item.xenovations.lime_terracotta_bricks": "Lime Terracotta Bricks",
+  "item.xenovations.green_terracotta_bricks": "Green Terracotta Bricks",
+  "item.xenovations.cyan_terracotta_bricks": "Cyan Terracotta Bricks",
+  "item.xenovations.light_blue_terracotta_bricks": "Light Blue Terracotta Bricks",
+  "item.xenovations.blue_terracotta_bricks": "Blue Terracotta Bricks",
+  "item.xenovations.purple_terracotta_bricks": "Purple Terracotta Bricks",
+  "item.xenovations.magenta_terracotta_bricks": "Magenta Terracotta Bricks",
+  "item.xenovations.pink_terracotta_bricks": "Pink Terracotta Bricks",
+
+  "itemgroup.xenovations.xenovations_building_blocks": "Xenovations Building Blocks",
+  "itemgroup.xenovations.xenovations_colored_blocks": "Xenovations Colored Blocks"
 }

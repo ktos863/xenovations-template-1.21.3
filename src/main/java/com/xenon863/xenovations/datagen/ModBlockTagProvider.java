@@ -31,17 +31,37 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRANITE_BRICKS)
                 .add(ModBlocks.GRANITE_BRICK_STAIRS)
                 .add(ModBlocks.GRANITE_BRICK_SLAB)
-                .add(ModBlocks.GRANITE_BRICK_WALL);
+                .add(ModBlocks.GRANITE_BRICK_WALL)
+
+                .add(ModBlocks.WHITE_TERRACOTTA_BRICKS)
+                .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICKS)
+                .add(ModBlocks.GRAY_TERRACOTTA_BRICKS)
+                .add(ModBlocks.BLACK_TERRACOTTA_BRICKS)
+                .add(ModBlocks.BROWN_TERRACOTTA_BRICKS)
+                .add(ModBlocks.RED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.ORANGE_TERRACOTTA_BRICKS)
+                .add(ModBlocks.YELLOW_TERRACOTTA_BRICKS)
+                .add(ModBlocks.LIME_TERRACOTTA_BRICKS)
+                .add(ModBlocks.GREEN_TERRACOTTA_BRICKS)
+                .add(ModBlocks.CYAN_TERRACOTTA_BRICKS)
+                .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_BRICKS)
+                .add(ModBlocks.BLUE_TERRACOTTA_BRICKS)
+                .add(ModBlocks.PURPLE_TERRACOTTA_BRICKS)
+                .add(ModBlocks.MAGENTA_TERRACOTTA_BRICKS)
+                .add(ModBlocks.PINK_TERRACOTTA_BRICKS);
+
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.ANDESITE_BRICK_STAIRS)
                 .add(ModBlocks.DIORITE_BRICK_STAIRS)
                 .add(ModBlocks.GRANITE_BRICK_STAIRS);
 
+
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.ANDESITE_BRICK_SLAB)
                 .add(ModBlocks.DIORITE_BRICK_SLAB)
                 .add(ModBlocks.GRANITE_BRICK_SLAB);
+
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ANDESITE_BRICK_WALL)

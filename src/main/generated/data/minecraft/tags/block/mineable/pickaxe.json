@@ -11,6 +11,22 @@
     "xenovations:granite_bricks",
     "xenovations:granite_brick_stairs",
     "xenovations:granite_brick_slab",
-    "xenovations:granite_brick_wall"
+    "xenovations:granite_brick_wall",
+    "xenovations:white_terracotta_bricks",
+    "xenovations:light_gray_terracotta_bricks",
+    "xenovations:gray_terracotta_bricks",
+    "xenovations:black_terracotta_bricks",
+    "xenovations:brown_terracotta_bricks",
+    "xenovations:red_terracotta_bricks",
+    "xenovations:orange_terracotta_bricks",
+    "xenovations:yellow_terracotta_bricks",
+    "xenovations:lime_terracotta_bricks",
+    "xenovations:green_terracotta_bricks",
+    "xenovations:cyan_terracotta_bricks",
+    "xenovations:light_blue_terracotta_bricks",
+    "xenovations:blue_terracotta_bricks",
+    "xenovations:purple_terracotta_bricks",
+    "xenovations:magenta_terracotta_bricks",
+    "xenovations:pink_terracotta_bricks"
   ]
 }

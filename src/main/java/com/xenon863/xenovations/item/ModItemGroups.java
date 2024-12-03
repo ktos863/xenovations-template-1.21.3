@@ -31,6 +31,29 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRANITE_BRICK_WALL);
                     })).build());
 
+    public static final ItemGroup XENOVATIONS_COLORED_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Xenovations.MOD_ID, "xenovations_colored_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.CYAN_TERRACOTTA_BRICKS))
+                    .displayName(Text.translatable("itemgroup.xenovations.xenovations_colored_blocks"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModBlocks.WHITE_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.GRAY_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.BLACK_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.BROWN_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.RED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.ORANGE_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.YELLOW_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.LIME_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.GREEN_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.CYAN_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.BLUE_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.PURPLE_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.MAGENTA_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.PINK_TERRACOTTA_BRICKS);
+                    })).build());
+
     public static void registerItemGroups(){
         Xenovations.LOGGER.info("Registering Item Groups for " + Xenovations.MOD_ID);
     }

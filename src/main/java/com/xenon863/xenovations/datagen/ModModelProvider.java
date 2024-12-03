@@ -28,6 +28,23 @@ public class ModModelProvider extends FabricModelProvider {
         graniteBricks.stairs(ModBlocks.GRANITE_BRICK_STAIRS);
         graniteBricks.slab(ModBlocks.GRANITE_BRICK_SLAB);
         graniteBricks.wall(ModBlocks.GRANITE_BRICK_WALL);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAY_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIME_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CYAN_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLUE_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGENTA_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_TERRACOTTA_BRICKS);
     }
 
     @Override
