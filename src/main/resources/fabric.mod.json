@@ -5,10 +5,8 @@
 	"name": "Xenovations",
 	"description": "This mod adds things that should be in vanilla Minecraft",
 	"authors": [
-		"Xenon863"
-	],
-	"credits": [
-		"Vanilla Tweaks: https://vanillatweaks.net/"
+		"Xenon863",
+		"Some textures are from Vanilla Tweaks: https://vanillatweaks.net/"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
