@@ -48,7 +48,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLUE_TERRACOTTA_BRICKS)
                 .add(ModBlocks.PURPLE_TERRACOTTA_BRICKS)
                 .add(ModBlocks.MAGENTA_TERRACOTTA_BRICKS)
-                .add(ModBlocks.PINK_TERRACOTTA_BRICKS);
+                .add(ModBlocks.PINK_TERRACOTTA_BRICKS)
+
+                .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.RED_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.LIME_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BRICKS)
+                .add(ModBlocks.PINK_GLAZED_TERRACOTTA_BRICKS);
 
 
         getOrCreateTagBuilder(BlockTags.STAIRS)

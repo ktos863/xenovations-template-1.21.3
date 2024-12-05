@@ -73,6 +73,23 @@ public class ModStonecutterRecipeProvider extends FabricRecipeProvider {
                 offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_TERRACOTTA_BRICKS, Blocks.PURPLE_TERRACOTTA);
                 offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_TERRACOTTA_BRICKS, Blocks.MAGENTA_TERRACOTTA);
                 offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_TERRACOTTA_BRICKS, Blocks.PINK_TERRACOTTA);
+
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.WHITE_GLAZED_TERRACOTTA_BRICKS, Blocks.WHITE_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BRICKS, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.GRAY_GLAZED_TERRACOTTA_BRICKS, Blocks.GRAY_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLACK_GLAZED_TERRACOTTA_BRICKS, Blocks.BLACK_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.BROWN_GLAZED_TERRACOTTA_BRICKS, Blocks.BROWN_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.RED_GLAZED_TERRACOTTA_BRICKS, Blocks.RED_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_BRICKS, Blocks.ORANGE_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_BRICKS, Blocks.YELLOW_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIME_GLAZED_TERRACOTTA_BRICKS, Blocks.LIME_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.GREEN_GLAZED_TERRACOTTA_BRICKS, Blocks.GREEN_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.CYAN_GLAZED_TERRACOTTA_BRICKS, Blocks.CYAN_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BRICKS, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.BLUE_GLAZED_TERRACOTTA_BRICKS, Blocks.BLUE_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_BRICKS, Blocks.PURPLE_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BRICKS, Blocks.MAGENTA_GLAZED_TERRACOTTA);
+                offerStonecuttingRecipe(RecipeCategory.DECORATIONS, ModBlocks.PINK_GLAZED_TERRACOTTA_BRICKS, Blocks.PINK_GLAZED_TERRACOTTA);
             }
         };
     }

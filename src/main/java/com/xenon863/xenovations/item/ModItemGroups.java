@@ -52,6 +52,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURPLE_TERRACOTTA_BRICKS);
                         entries.add(ModBlocks.MAGENTA_TERRACOTTA_BRICKS);
                         entries.add(ModBlocks.PINK_TERRACOTTA_BRICKS);
+
+                        entries.add(ModBlocks.WHITE_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.GRAY_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.BLACK_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.BROWN_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.RED_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.LIME_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.GREEN_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.CYAN_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.BLUE_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.PINK_GLAZED_TERRACOTTA_BRICKS);
                     })).build());
 
     public static void registerItemGroups(){

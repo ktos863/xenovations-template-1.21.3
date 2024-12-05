@@ -117,6 +117,103 @@ public class ModDecorationsRecipeProvider extends FabricRecipeProvider {
                         .input('T', Blocks.PINK_TERRACOTTA)
                         .criterion(hasItem(Blocks.PINK_TERRACOTTA), conditionsFromItem(Blocks.PINK_TERRACOTTA))
                         .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.WHITE_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.WHITE_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.WHITE_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.WHITE_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.GRAY_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.GRAY_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.GRAY_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.GRAY_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.BLACK_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.BLACK_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.BLACK_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.BLACK_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.BROWN_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.BROWN_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.BROWN_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.BROWN_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.RED_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.RED_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.RED_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.RED_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.ORANGE_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.ORANGE_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.ORANGE_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.YELLOW_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.YELLOW_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.YELLOW_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.YELLOW_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.LIME_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.LIME_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.LIME_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.LIME_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.GREEN_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.GREEN_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.GREEN_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.GREEN_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.CYAN_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.CYAN_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.CYAN_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.CYAN_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.BLUE_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.BLUE_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.BLUE_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.BLUE_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.PURPLE_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.PURPLE_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.PURPLE_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.MAGENTA_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.MAGENTA_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.MAGENTA_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.PINK_GLAZED_TERRACOTTA_BRICKS, 4)
+                        .pattern("TT")
+                        .pattern("TT")
+                        .input('T', Blocks.PINK_GLAZED_TERRACOTTA)
+                        .criterion(hasItem(Blocks.PINK_GLAZED_TERRACOTTA), conditionsFromItem(Blocks.PINK_GLAZED_TERRACOTTA))
+                        .offerTo(recipeExporter);
             }
         };
     }

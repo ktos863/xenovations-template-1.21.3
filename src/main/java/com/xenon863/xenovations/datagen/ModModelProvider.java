@@ -45,6 +45,23 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_TERRACOTTA_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGENTA_TERRACOTTA_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_TERRACOTTA_BRICKS);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAY_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIME_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CYAN_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GLAZED_TERRACOTTA_BRICKS);
     }
 
     @Override
