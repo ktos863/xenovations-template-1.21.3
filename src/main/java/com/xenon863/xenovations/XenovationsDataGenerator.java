@@ -8,6 +8,7 @@ import com.xenon863.xenovations.datagen.recipes.ModDecorationsRecipeProvider;
 import com.xenon863.xenovations.datagen.recipes.ModStonecutterRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
 
 public class XenovationsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -21,5 +22,10 @@ public class XenovationsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBuildingBlocksRecipeProvider::new);
 		pack.addProvider(ModDecorationsRecipeProvider::new);
 		pack.addProvider(ModStonecutterRecipeProvider::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder){
+
 	}
 }

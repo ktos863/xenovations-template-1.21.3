@@ -1,6 +1,7 @@
 package com.xenon863.xenovations.datagen;
 
 import com.xenon863.xenovations.block.ModBlocks;
+import com.xenon863.xenovations.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -67,22 +68,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_BRICKS)
                 .add(ModBlocks.PINK_GLAZED_TERRACOTTA_BRICKS);
 
-
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.ANDESITE_BRICK_STAIRS)
                 .add(ModBlocks.DIORITE_BRICK_STAIRS)
                 .add(ModBlocks.GRANITE_BRICK_STAIRS);
-
 
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.ANDESITE_BRICK_SLAB)
                 .add(ModBlocks.DIORITE_BRICK_SLAB)
                 .add(ModBlocks.GRANITE_BRICK_SLAB);
 
-
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ANDESITE_BRICK_WALL)
                 .add(ModBlocks.DIORITE_BRICK_WALL)
                 .add(ModBlocks.GRANITE_BRICK_WALL);
+
     }
 }

@@ -1,5 +1,5 @@
-// 1.21.3	2024-12-05T10:43:34.402742	Xenovations/Tags for minecraft:block
+// 1.21.3	2024-12-05T16:08:53.7169349	Xenovations/Tags for minecraft:block
 ee18d11caf49784c0740bbe57210d59d0cdc12ee data\minecraft\tags\block\mineable\pickaxe.json
 19541072633299985dc90a81f5faf37d6a6e1798 data\minecraft\tags\block\stairs.json
-6e01c423194e96cb8837a56fa712cb94f9e752fc data\minecraft\tags\block\slabs.json
 987cd1c07fd1de5426ee9768b1fa033fd44d9db1 data\minecraft\tags\block\walls.json
+6e01c423194e96cb8837a56fa712cb94f9e752fc data\minecraft\tags\block\slabs.json

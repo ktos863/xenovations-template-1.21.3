@@ -14,6 +14,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
+        //BUILDING BLOCKS
         BlockStateModelGenerator.BlockTexturePool andesiteBricks = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANDESITE_BRICKS);
         andesiteBricks.stairs(ModBlocks.ANDESITE_BRICK_STAIRS);
         andesiteBricks.slab(ModBlocks.ANDESITE_BRICK_SLAB);
@@ -29,6 +30,9 @@ public class ModModelProvider extends FabricModelProvider {
         graniteBricks.slab(ModBlocks.GRANITE_BRICK_SLAB);
         graniteBricks.wall(ModBlocks.GRANITE_BRICK_WALL);
 
+
+
+        //COLORED BLOCKS
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_TERRACOTTA_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAY_TERRACOTTA_BRICKS);

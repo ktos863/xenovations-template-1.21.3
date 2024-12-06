@@ -14,6 +14,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        //BUILDING BLOCKS
         addDrop(ModBlocks.ANDESITE_BRICKS);
         addDrop(ModBlocks.ANDESITE_BRICK_STAIRS);
         addDrop(ModBlocks.ANDESITE_BRICK_SLAB, slabDrops(ModBlocks.ANDESITE_BRICK_SLAB));
@@ -29,6 +30,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRANITE_BRICK_SLAB, slabDrops(ModBlocks.GRANITE_BRICK_SLAB));
         addDrop(ModBlocks.GRANITE_BRICK_WALL);
 
+
+
+        //COLORED BLOCKS
         addDrop(ModBlocks.WHITE_TERRACOTTA_BRICKS);
         addDrop(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICKS);
         addDrop(ModBlocks.GRAY_TERRACOTTA_BRICKS);
